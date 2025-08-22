@@ -61,7 +61,7 @@ export const LocationSection = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-border">
                   <span className="text-muted-foreground font-medium">Lunes a Viernes</span>
-                  <span className="font-semibold text-foreground">9:00 AM - 7:00 PM</span>
+                  <span className="font-semibold text-foreground">10:00 AM - 5:00 PM</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-border">
                   <span className="text-muted-foreground font-medium">Sábados</span>
