@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpeg";
 
 export const Header = () => {
   const scrollToSection = (sectionId: string) => {
@@ -14,10 +15,12 @@ export const Header = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-beauty-gradient flex items-center justify-center text-white font-bold text-lg">
-              BP
-            </div>
-            <span className="font-semibold text-lg text-foreground">Belleza Profesional</span>
+            <img 
+              src={logo} 
+              alt="Gina Studio Glam" 
+              className="w-14 h-14 rounded-full object-cover"
+            />
+            <span className="font-semibold text-lg text-foreground">Gina Studio Glam</span>
           </div>
           
           {/* Navigation */}
