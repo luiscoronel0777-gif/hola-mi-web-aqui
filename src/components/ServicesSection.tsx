@@ -67,11 +67,11 @@ export const ServicesSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-beauty transition-all duration-300 group border-2">
-              <div className="relative h-64 overflow-hidden bg-muted">
+              <div className="relative h-64 overflow-hidden">
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 text-white">
