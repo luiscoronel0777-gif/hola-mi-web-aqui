@@ -41,7 +41,7 @@ const services = [
   {
     title: "Maquillaje Social",
     description: "Perfecto para eventos corporativos, reuniones y ocasiones especiales.",
-    price: "$70",
+    price: "$100",
     image: maquillajeSocialImg
   }
 ];
